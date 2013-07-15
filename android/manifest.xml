@@ -1,0 +1,10 @@
+<!--START_PLUGINS_MANIFEST-->
+	<!--TapForTap-->
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<!--END_PLUGINS_MANIFEST-->
+<!--START_PLUGINS_APPLICATION-->
+	<!--TapForTap-->
+	<meta-data android:name="TAPFORTAP_API_KEY" android:value="" />
+	<activity android:name="com.tapfortap.TapForTapActivity"/>
+<!--END_PLUGINS_APPLICATION-->

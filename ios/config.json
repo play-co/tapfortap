@@ -1,0 +1,14 @@
+{
+	"code": [
+		"TapForTap.h",
+		"TapForTapAdView.h",
+		"TapForTapAppWall.h",
+		"TapForTapInterstitial.h",
+		"TapForTapPlugin.h",
+		"TapForTapPlugin.mm"
+	],
+	"frameworks": [
+		"AdSupport",
+		"libTapForTapAds.a"
+	]
+}

@@ -1,0 +1,7 @@
+{
+    "copyFiles": ["TapForTapPlugin.java"],
+    "libraries": [],
+    "jars": ["TapForTap.jar"],
+    "injectionXML": "manifest.xml",
+	"injectionXSL": "manifest.xsl"
+}
