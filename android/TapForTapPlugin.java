@@ -21,16 +21,12 @@ import com.tapfortap.TapForTap;
 public class TapForTapPlugin implements IPlugin {
 
 	public TapForTapPlugin() {
-
 	}
 
 	public void onCreateApplication(Context applicationContext) {
-	
 	}
 
 	public void onCreate(Activity activity, Bundle savedInstanceState) {
-		this.mActivity = activity;
-
         PackageManager manager = activity.getPackageManager();
         String key = "";
         try {
@@ -48,35 +44,27 @@ public class TapForTapPlugin implements IPlugin {
 	}
 
 	public void onResume() {
-	
 	}
 
 	public void onStart() {
-		this.cb.onStart(mActivity);
 	}
 
 	public void onPause() {
-	
 	}
 
 	public void onStop() {
-		this.cb.onStop(mActivity);
 	}
 
 	public void onDestroy() {
-		this.cb.onDestroy(mActivity);
 	}
 
 	public void onNewIntent(Intent intent) {
-	
 	}
 
 	public void setInstallReferrer(String referrer) {
-	
 	}
 
 	public void onActivityResult(Integer request, Integer result, Intent data) {
-	
 	}
 
 	public boolean consumeOnBackPressed() {
