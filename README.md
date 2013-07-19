@@ -1,6 +1,6 @@
 # Game Closure DevKit Plugin: TapForTap
 
-This plugin allows you to collect analytics using the [TapForTap](https://tapfortap.com/) toolkit.  Both iOS and Android targets are supported.
+This plugin allows you to advertise using the [TapForTap](https://tapfortap.com/) toolkit.  Both iOS and Android targets are supported.
 
 ## Usage
 
